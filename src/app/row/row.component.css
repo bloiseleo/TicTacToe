@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+}
+.column {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.column span {
+    font-weight: bold;
+}
